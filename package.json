@@ -1,0 +1,11 @@
+{
+  "name": "notificationserviceextension",
+  "version": "1.0.0",
+  "description": "Notification Service Extension For Receiving Images in IOS Push Notifications Using FCM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vedant Sasane",
+  "license": "ISC"
+}
