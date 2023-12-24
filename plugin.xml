@@ -6,10 +6,6 @@
 </js-module>
 <platform name="ios">
 
-<config-file parent="/*" target="config.xml"><feature name="NotificationServiceExtension"><param name="ios-package" value="NotificationServiceExtension" /></feature>
-</config-file>
-<source-file src="src/ios/NotificationService.m" />
-
 <podspec>
       <config>
         <source url="https://cdn.cocoapods.org/"/>
@@ -18,5 +14,6 @@
         <pod name="Firebase/Messaging" spec="~> 8.1.1" />
       </pods>
 </podspec>
+<hook type="after_plugin_add" src="src/ios/serviceExtension.js" />
 </platform>
 </plugin>
